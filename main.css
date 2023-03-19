@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(201, 162, 127);
+}
+
+#sobre img {
+    width: 100%;
+}
+
+header .container h1 {
+    font-size: 100px;
+    font-family: 'Unica One', cursive;
+    font-weight: 500;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+#sobre {
+    text-align: center;
+}
+
+.descricao p {
+    font-size: 25px;
+    font-family: 'Unica One', cursive;
+    color: rgb(150, 150, 150);
+}
+
+.container h1 {
+    font-weight: normal;
+    color: beige;
+    font-size: 55px;
+}
+
+.menu-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.menu-itens img {
+    height: 600px;
+    width: 500px;
+    margin: 0 20px;
+    transition: 0.5s all ease-in-out;
+}
+
+.container img {
+    height: 600px;
+    padding: 12px;
+}
+
+.descricao, form, .titulo-contato, body h3 {
+    margin: 12px;
+}
+
+#menu {
+    padding: 10px;
+}
+
+#menu h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.menu-itens img {
+    cursor: pointer;
+}
+
+section h2 {
+    font-size: 35px;
+}
+
+.container h3 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.descricao h2, #menu h2, .titulo-contato, #contato, footer  {
+    color: rgb(150, 150, 150);
+    font-family: 'Unica One', cursive;
+}
+
+.descricao h2, #menu h2, .titulo-contato {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+header nav li {
+    display: inline;
+    padding: 12px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: beige;
+    font-size: 30px;
+    font-family: 'Unica One', cursive;
+    font-weight: 600;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img {
+    height: 60px;
+}
+
+.redes li {
+    display: inline;
+}
+
+.redes a {
+    text-decoration: none;
+}
+
+form input, textarea, button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Unica One', cursive;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(201, 162, 127);;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+hr {
+    border-color: rgb(224, 192, 164);
+}
+
+.menu-itens img:hover {
+    transform: scale(1.1);
+}
+
+form button:hover {
+    background-color: rgb(172, 154, 119);
+}
+
+textarea:focus, input:focus {
+    outline-color: rgb(172, 154, 119);
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
